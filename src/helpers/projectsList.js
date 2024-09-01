@@ -22,35 +22,40 @@ const projects = [
 		skills: 'React, Node.js, MongoDB',
 		img: project01,
 		imgBig: project01Big,
+		gitHubLink:""
 	},
 	{
 		title: 'Portfolio',
 		img: project02,
 		imgBig: project02Big,
+		gitHubLink:""
 		
 	},
 	{
 		title: 'Games',
 		img: project03,
 		imgBig: project03Big,
+		gitHubLink:"https://github.com/Schachtinsk/snake.git"
 		
 	},
 	{
 		title: 'Shops',
 		img: project04,
-		imgBig: project04Big
+		imgBig: project04Big,
 		
 	},
 	{
 		title: 'Immobilienagentur',
 		img: project05,
-		imgBig: project05Big
+		imgBig: project05Big,
+		gitHubLink:"https://github.com/Schachtinsk/LoftHouse.git"
 		
 	},
 	{
 		title: 'Animation',
 		img: project06,
-		imgBig: project06Big
+		imgBig: project06Big,
+		gitHubLink:"https://github.com/Schachtinsk/grass-animation.git"
 		
 	},
 ];
