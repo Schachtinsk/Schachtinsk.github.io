@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/main.css";
 
 import Navbar from "./components/navbar/Navbar";
@@ -12,13 +12,6 @@ import Contacts from "./pages/Contacts";
 import ScrollToTop from "./utils/scrollToTop";
 
 function App() {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.pathname === '/frontend-portfolio') {
-      window.location.replace('https://Schachtinsk.github.io/');
-    }
-  }, [location.pathname]);
 
   return (
     <div className="App">
