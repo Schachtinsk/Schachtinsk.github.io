@@ -15,6 +15,10 @@ const Home = () => {
                 <p>
                 HTML, CSS, JavaScript, ReactJS, TailwindCSS
                 </p>
+                <img 
+                src="https://www.codewars.com/users/Kotyi/badges/large" 
+                alt="Codewars Badge" 
+                />
               </li>
             </ul>
           </div>
