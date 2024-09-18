@@ -10,7 +10,7 @@ import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 
 import ScrollToTop from "./utils/scrollToTop";
-import { animateLetters } from './../src/components/animations/GSAPAnimations';
+
 
 function App() {
 
